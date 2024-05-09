@@ -9,22 +9,22 @@ namespace net_calculator_tester
 {
     public static class Calcolatrice
     {
-        public static float Somma(float numero1, float numero2)
+        public static float Add(float numero1, float numero2)
         {
             return numero1 + numero2;
         }
 
-        public static float Sottrazione(float numero1, float numero2)
+        public static float Subtract(float numero1, float numero2)
         {
             return numero1 - numero2;
         }
 
-        public static float Moltiplicazione(float numero1, float numero2)
+        public static float Multiply(float numero1, float numero2)
         {
             return numero1 * numero2;
         }
 
-        public static float Divisione(float numero1, float numero2)
+        public static float Divide(float numero1, float numero2)
         {
             if (numero2 == 0)
             {
